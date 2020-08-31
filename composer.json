@@ -19,14 +19,10 @@
     "phpunit/phpunit": "~9.2"
   },
   "autoload" : {
-    "psr-4": { "LizardsAndPumpkins\\Util\\FileSystem\\": "src/" }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "LizardsAndPumpkins\\Util\\FileSystem\\": [
-        "tests/Unit/Suites"
-      ]
-    }
+    "psr-4": { "LizardsAndPumpkins\\Util\\FileSystem\\": [
+      "src/",
+      "tests/Unit/Suites/"
+    ] }
   },
   "scripts": {
     "test": "vendor/bin/phpunit -c tests/Unit/phpunit.xml.dist"
