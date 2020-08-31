@@ -13,8 +13,7 @@
     }
   ],
   "require": {
-    "php": "^7.1",
-    "lizards-and-pumpkins/core": "^1.0.0"
+    "php": "^7.1"
   },
   "require-dev": {
     "phpunit/phpunit": "~9.2"
